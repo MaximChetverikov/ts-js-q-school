@@ -11,7 +11,7 @@
       "phoneNumber": "625-316-9882",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/t45AiwidW.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 168137,
+      "balance": 164637,
       "createdAt": "2019-08-27T23:47:05.637Z",
       "modifiedAt": "2020-05-21T11:02:22.857Z"
     },
@@ -26,7 +26,7 @@
       "phoneNumber": "537-041-4355",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/qywYp6hS0U.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 101805,
+      "balance": 105305,
       "createdAt": "2019-09-09T13:48:45.489Z",
       "modifiedAt": "2020-05-21T02:34:01.483Z"
     },
@@ -41,7 +41,7 @@
       "phoneNumber": "072-208-4283",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/bDjUb4ir5O.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 167167,
+      "balance": 164867,
       "createdAt": "2019-09-15T04:44:05.536Z",
       "modifiedAt": "2020-05-21T18:25:10.341Z"
     },
@@ -74,83 +74,6 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
-    },
-    {
-      "id": "pAGLyYuNL",
-      "uuid": "80ad8cdb-09c4-4f89-80ae-74a2ee30cd8e",
-      "firstName": "test",
-      "lastName": "user",
-      "username": "testuser",
-      "password": "$2a$10$5m4y.5zu7hLktlgNJnDBYOxhOFv639CU85D8Bl21GAImCVq1GTNL6",
-      "balance": 0,
-      "createdAt": "2022-04-15T17:47:07.395Z",
-      "modifiedAt": "2022-04-15T17:47:07.395Z"
-    },
-    {
-      "id": "krAbaNSYc",
-      "uuid": "c24b4aad-70a7-43c6-91fd-109b064a01e7",
-      "firstName": "test",
-      "lastName": "user",
-      "username": "testuser",
-      "password": "$2a$10$jn6NQZ.KmfdRIle.8Bb.ReyKqrYYCKMOT/pSYvolOELZjh1wLbHd2",
-      "balance": 0,
-      "createdAt": "2022-04-15T17:48:47.819Z",
-      "modifiedAt": "2022-04-15T17:48:47.819Z"
-    },
-    {
-      "id": "pCLunWmAm",
-      "uuid": "7b41d725-160f-4302-bd40-e8fbcfb8c8fc",
-      "firstName": "test",
-      "lastName": "user",
-      "username": "testuser",
-      "password": "$2a$10$lhvqgYWMZv.ukLFGITZZWOhSiyxW3mtTeUn5x52oGtEX.Fn6IfjTO",
-      "balance": 0,
-      "createdAt": "2022-04-15T17:49:38.431Z",
-      "modifiedAt": "2022-04-15T17:49:38.431Z"
-    },
-    {
-      "id": "ipHKH7H0t",
-      "uuid": "aff5f556-3bb2-4375-8ebd-ee1c714e57ac",
-      "firstName": "test",
-      "lastName": "user",
-      "username": "testuser",
-      "password": "$2a$10$TTI4p8AhQc7rPQpW49fHBeP0jZaZW4G4z1j2Uolv/9Ta0/NbIR8H.",
-      "balance": 0,
-      "createdAt": "2022-04-15T17:50:14.250Z",
-      "modifiedAt": "2022-04-15T17:50:14.250Z"
-    },
-    {
-      "id": "Cpyq5tzrH",
-      "uuid": "5451345a-0850-43f3-9863-5508b3f777dd",
-      "firstName": "test",
-      "lastName": "user",
-      "username": "testuser",
-      "password": "$2a$10$JM7mjShE01lsi2Qs52KD9eFfN1DHXECtevWAZSurrl11QRbfb07qW",
-      "balance": 0,
-      "createdAt": "2022-04-15T17:51:44.593Z",
-      "modifiedAt": "2022-04-15T17:51:44.593Z"
-    },
-    {
-      "id": "4O1lrmpGL",
-      "uuid": "3bcb89aa-6d44-4426-ae0e-66bed29e753e",
-      "firstName": "test",
-      "lastName": "user",
-      "username": "testuser",
-      "password": "$2a$10$6FCZHbAJlDjhpkp6EXT/X.e6qFURXGMHbr7lH1TV3/n37TYAOi3ly",
-      "balance": 0,
-      "createdAt": "2022-04-15T17:56:54.215Z",
-      "modifiedAt": "2022-04-15T17:56:54.215Z"
-    },
-    {
-      "id": "aAT47FH-l",
-      "uuid": "1dce72ed-aad1-42b3-bd01-af7813340912",
-      "firstName": "test",
-      "lastName": "user",
-      "username": "testuser",
-      "password": "$2a$10$1SOgJp6WT18ZfUEh2TCre.wwF4u8CcX.Ne1e70/LZGiHw64q207x.",
-      "balance": 0,
-      "createdAt": "2022-04-15T17:57:21.604Z",
-      "modifiedAt": "2022-04-15T17:57:21.604Z"
     }
   ],
   "contacts": [
@@ -330,17 +253,6 @@
       "isDeleted": false,
       "createdAt": "2019-09-30T14:20:07.043Z",
       "modifiedAt": "2020-05-21T22:40:28.910Z"
-    },
-    {
-      "id": "F-tC35LBI",
-      "uuid": "e43bf2f7-92df-41cf-afbe-a08aa98eb730",
-      "userId": "pAGLyYuNL",
-      "bankName": "The Best Bank",
-      "accountNumber": "1234556677",
-      "routingNumber": "987654321",
-      "isDeleted": false,
-      "createdAt": "2022-04-15T17:50:05.212Z",
-      "modifiedAt": "2022-04-15T17:50:05.212Z"
     }
   ],
   "transactions": [
@@ -9945,15 +9857,16 @@
       "modifiedAt": "2020-05-21T04:58:44.494Z"
     },
     {
-      "id": "dun4Bi5ZX",
-      "uuid": "7eeba78b-75ca-4a6f-8adb-8d0e06e087d6",
-      "amount": 2300,
-      "description": "help",
-      "receiverId": "bDjUb4ir5O",
-      "senderId": "pAGLyYuNL",
+      "id": "BVoFpPhyA",
+      "uuid": "6fb0fb2b-5d39-48bb-b9d8-ac16d1ee7cbf",
+      "amount": 3500,
+      "description": "Shaverma 🌯",
+      "receiverId": "qywYp6hS0U",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
       "status": "complete",
-      "createdAt": "2022-04-15T17:51:18.339Z",
-      "modifiedAt": "2022-04-15T17:51:18.339Z"
+      "createdAt": "2022-04-20T07:53:33.939Z",
+      "modifiedAt": "2022-04-20T07:53:33.939Z"
     }
   ],
   "likes": [
@@ -10532,14 +10445,14 @@
       "modifiedAt": "2020-05-21T21:00:50.192Z"
     },
     {
-      "id": "lBuCQWgBeu",
-      "uuid": "4069f40e-8ec4-4481-973e-b4c2336a881a",
-      "userId": "bDjUb4ir5O",
-      "transactionId": "dun4Bi5ZX",
+      "id": "HV1K8rgVIW",
+      "uuid": "a576d520-54ad-4ec2-8199-3f0642d96f60",
+      "userId": "qywYp6hS0U",
+      "transactionId": "BVoFpPhyA",
       "status": "received",
       "isRead": false,
-      "createdAt": "2022-04-15T17:51:18.362Z",
-      "modifiedAt": "2022-04-15T17:51:18.362Z"
+      "createdAt": "2022-04-20T07:53:33.962Z",
+      "modifiedAt": "2022-04-20T07:53:33.962Z"
     }
   ],
   "banktransfers": [
@@ -11092,16 +11005,6 @@
       "transactionId": "jtdpSmWcsJxk",
       "createdAt": "2019-10-10T05:09:20.517Z",
       "modifiedAt": "2020-05-21T12:24:00.749Z"
-    },
-    {
-      "id": "DVH63einwa",
-      "uuid": "080df599-e274-42be-a528-0be39c333083",
-      "userId": "pAGLyYuNL",
-      "amount": 2300,
-      "transactionId": "dun4Bi5ZX",
-      "type": "withdrawal",
-      "createdAt": "2022-04-15T17:51:18.350Z",
-      "modifiedAt": "2022-04-15T17:51:18.350Z"
     }
   ]
 }

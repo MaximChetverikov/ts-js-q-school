@@ -34,24 +34,27 @@ describe("New Transaction", function () {
     });
   });
 
-  it("navigates to the new transaction form, selects a user and submits a transaction payment", function () {
+  it.only("navigates to the new transaction form, selects a user and submits a transaction payment", function () {
     const payment = {
       amount: "35",
       description: "Sushi dinner 🍣",
+      descriptionNew: "Shaverma 🌯"
     };
-
     cy.getBySelLike("new-transaction").click();
     cy.wait("@allUsers");
 
-    cy.getBySel("user-list-search-input").type(ctx.contact!.firstName, { force: true });
+    cy.getBySel("user-list-search-input").type(ctx.contact!.lastName, { force: true });
     cy.wait("@usersSearch");
     cy.visualSnapshot("User Search First Name Input");
 
-    cy.getBySelLike("user-list-item").contains(ctx.contact!.firstName).click({ force: true });
+
+    cy.getBySelLike("user-list-item").contains(ctx.contact!.firstName);
+    cy.getBySelLike("user-list-item").contains(ctx.contact!.lastName).click({ force: true });
     cy.visualSnapshot("User Search First Name List Item");
 
     cy.getBySelLike("amount-input").type(payment.amount);
-    cy.getBySelLike("description-input").type(payment.description);
+    cy.getBySelLike("description-input").type(payment.description).clear();
+    cy.getBySelLike("description-input").type(payment.descriptionNew);
     cy.visualSnapshot("Amount and Description Input");
     cy.getBySelLike("submit-payment").click();
     cy.wait(["@createTransaction", "@getUserProfile"]);
@@ -79,7 +82,7 @@ describe("New Transaction", function () {
     cy.getBySelLike("personal-tab").click().should("have.class", "Mui-selected");
     cy.wait("@personalTransactions");
 
-    cy.getBySel("transaction-list").first().should("contain", payment.description);
+    cy.getBySel("transaction-list").first().should("contain", payment.descriptionNew);
 
     cy.database("find", "users", { id: ctx.contact!.id })
       .its("balance")
