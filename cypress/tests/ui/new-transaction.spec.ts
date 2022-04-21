@@ -93,8 +93,10 @@ describe("New Transaction", function () {
 
   it("navigates to the new transaction form, selects a user and submits a transaction request", function () {
     const request = {
-      amount: "95",
+      amount: "100",
       description: "Fancy Hotel 🏨",
+      amountNew: "50",
+      descriptionNew: "Camping 🏕️",
     };
 
     cy.getBySelLike("new-transaction").click();
@@ -104,7 +106,11 @@ describe("New Transaction", function () {
     cy.visualSnapshot("User Search First Name Input");
 
     cy.getBySelLike("amount-input").type(request.amount);
+    cy.getBySelLike("amount-input").type(request.amount).clear();
     cy.getBySelLike("description-input").type(request.description);
+    cy.getBySelLike("description-input").type(request.description).clear();
+    cy.getBySelLike("amount-input").type(request.amountNew);
+    cy.getBySelLike("description-input").type(request.descriptionNew);
     cy.visualSnapshot("Amount and Description Input");
     cy.getBySelLike("submit-request").click();
     cy.wait("@createTransaction");
@@ -116,7 +122,7 @@ describe("New Transaction", function () {
     cy.getBySelLike("return-to-transactions").click();
     cy.getBySelLike("personal-tab").click().should("have.class", "Mui-selected");
 
-    cy.getBySelLike("transaction-item").should("contain", request.description);
+    cy.getBySelLike("transaction-item").should("contain", request.descriptionNew);
     cy.visualSnapshot("Transaction Item Description in List");
   });
 
